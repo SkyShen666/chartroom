@@ -12,7 +12,7 @@ import (
 )
 
 func ShowMenu() {
-	fmt.Printf("-------恭喜用户:%d 登录成功---------\n", CurUser.UserID)
+	fmt.Printf("-------恭喜用户:%d 登录成功--------\n", CurUser.UserID)
 	fmt.Println("-------1. 显示在线用户列表---------")
 	fmt.Println("-------2. 发送消息---------")
 	fmt.Println("-------3. 信息列表---------")
